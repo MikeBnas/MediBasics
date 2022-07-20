@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".ValidateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contentval"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="#3F99E3"
+                android:paddingTop="2dp"
+                android:text="Como obtener la app?"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infoval"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/contentserial"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="#3F99E3"
+                android:paddingTop="2dp"
+                android:text="Ver el ID de la app"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/serial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"
+                android:textIsSelectable="true"/>
+
+            <EditText
+                android:id="@+id/inputcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INGRESA CODIGO DE VALIDACION" />
+
+            <Button
+                android:id="@+id/buttonval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENVIAR" />
+
+            <ImageView
+                android:id="@+id/picrollin"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="0dp"
+                android:onClick="rollin"
+                android:src="@drawable/rollin" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

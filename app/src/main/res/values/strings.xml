@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MediCourses BasicsBooks</string>
+    <string name="infoval">
+        Esta aplicacion tiene un costo de $4 Dolares Americanos.\n
+        Para poder validar esta aplicacion debes comprar la version extendida, lo que te
+        permitira acceder a los recursos de las secciones bloqueadas.\n\n
+
+        Los metodos disponibles para activar la aplicacion son:\n
+        Pago via paypal: g2miguelangel@hotmail.com\n
+        Pago via Bitcoin: 3DwKnmCLNtQFCN3Fb9aQerdEw9gftiHEs3\n
+        Si eres de Venezuela puedes realizar pago via pagomovil (tasa DT) al\n
+        Banco Venezuela (0102) 04145627984 16660344\n\n
+
+        Una vez realizado tu pago, envia una captura de pantalla del mismo, donde se muestre monto,
+        fecha y codigo de transaccion al correo electronico: medicoursecontact@gmail.com, conjuntamente con el serial de
+        identificacion de tu app, ubicado debajo de este texto.\n
+        En el transcurso de 2 a 24 horas recibiras el codigo de validacion, al cual
+        deberas ingresar donde dice: \"INGRESA CODIGO DE VALIDACION\".\n\n
+
+        El valor de la aplicacion no aplica a los recursos recolectados, como libros y demas,
+        los mismos son de libre acceso y distribuidos en la red, asi que al comprar la version extendida
+        de esta app, aceptas pagar solo por el software que los contiene y organiza y no por los recursos
+        de otros autores.\n
+    </string>
+</resources>
